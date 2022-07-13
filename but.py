@@ -1124,7 +1124,7 @@ if __name__=='__main__':
 	try:os.system('touch .prox.txt')
 	except:pass
 	#####try:os.system('pkg install play-audio')
-	except:pass
+	
 	try:os.system('clear')
 	except:pass
 	#####alvino_xy(f'\n\t{x}——> {h}Gunakan Script Ini Sewajarnya\n\t{x}——> {h}Jika Ada Bug/Error Bilang Yahh\n\t{x}——> {h}Alvino Sehat Selalu Yah\n\t{x}——> {h}Semoga Di Mudahkan Rezekinya Amin\n\t{x}——> {h}Semoga Harimu Menyenangkan Sayang{x}')
