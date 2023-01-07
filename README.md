@@ -17,3 +17,7 @@ $ ls
 $ cd alvino
 
 $ python sun.py
+
+> make doang nggak follow kntl 🗿
+
+> minimal follow dululah bang :v
