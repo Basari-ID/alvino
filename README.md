@@ -10,10 +10,10 @@ $ pip install stdiomask
 
 $ pip install --upgrade pip
 
-$ git clone https://github.com/Basari-ID/SS
+$ git clone https://github.com/Basari-ID/alvino
 
 $ ls
 
-$ cd SS
+$ cd alvino
 
-$ python alvino.py
+$ python sun.py
