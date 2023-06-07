@@ -202,12 +202,12 @@ def login_lagi334():
 							r.headers.update({'sec-fetch-mode': 'no-cors','referer': 'https://graph.facebook.com/','Host': 'graph.facebook.com','accept': '*/*','sec-fetch-dest': 'script','sec-fetch-site': 'cross-site',})
 							response7 = r.get(status_url, cookies = {'cookie': your_cookies}).text
 							access_token = re.search('"access_token": "(.*?)"', str(response7)).group(1)
-							tokenew = open(".tokenakun.txt","w").write(access_token)
-							cook= open(".cookiesakun.txt","w").write(your_cookies)
+							tokenew = open(".token.txt","w").write(access_token)
+							cook= open(".cok.txt","w").write(your_cookies)
 							print("\n└── \x1b[1;92mcookies valid login berhasil");exit()
 			except Exception as e:
 				print("\x1b[1;92m[×\x1b[1;92m]\033[93m └──\x1b[1;92mcookies telah kadaluarsa")
-				os.system('rm -rf .tokenakun.txt && rm -rf .cookiesakun.txt')
+				os.system('rm -rf .token.txt && rm -rf .cok.txt')
 				print(e)
 				time.sleep(3)
 				back()
